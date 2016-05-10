@@ -1,0 +1,129 @@
+
+
+
+
+	/********真实选择*******/
+
+	
+.turexuanxiang { width:300px; height:300px; line-height:30px; position:absolute; top:50%; left:50%; margin-top:-150px; margin-left:-150px;  background:#FFF; transition:all 1s; opacity:0; text-align:center; border-radius:50%; box-shadow:0px 0px 200px #AC0D0D; z-index:0;}
+.turexuanxiang span { color:#C90003}
+.turexuanxiang .xztm { margin-top:100px;}
+.turexuanxiang .xzyes a { width:100px; height:30px; margin-top:30px; margin-left:100px; display:block; border-bottom:2px solid #C90003}
+.turexuanxiang .xzyes a:hover { background:#C90003; border-radius:10px; color:#FFFFFF}
+.turexuanxiang .xzyes a { color:#C90003;}
+.turexuanxiang .xzno { width:100px; height:30px; cursor:pointer; margin-top:20px; margin-left:100px; border-bottom:2px solid #1B1121}
+.turexuanxiang .xzno:hover { background:#1B1121; color:#FFFFFF; border-radius:10px;}
+.turexuanxiang .xzno:hover.turexuanxiang { background:url(../images/bujinru.jpg) no-repeat 0 0}
+
+
+
+
+	/********动画*******/
+
+@keyframes test {
+  0% {background-position:0px -0%;}
+  100% {background-position:0px -1000%;}
+}
+
+@keyframes mexzz {
+  0%{ transform: rotate(0deg);}
+  100% { transform:rotate(360deg);}
+
+}
+
+@keyframes mexzy {
+  0%{ transform:rotate(45deg);}
+  100% { transform:rotate(405deg);}
+
+}
+
+@keyframes yd{
+  0%{  top:50%; box-shadow: none}
+  30%{  box-shadow:0 0px 20px #FFF;}
+  40%{ top:50%;  box-shadow: none}
+  100% { top:30%;}
+
+}
+
+@keyframes liebiao{
+  0%{ height:0}
+  60%{ height:0}
+  100%{ height:260px;}
+}
+
+@keyframes liebiaoli{
+  0%{ background:#8f9aa1}
+  50%{ background:#d2d7db}
+  100% { background:#8f9aa1}
+}
+
+
+
+@keyframes ui{
+  0% {  box-shadow: none; opacity:0}
+  60%{  box-shadow: none; opacity:0}
+  80%{  box-shadow:0 0px 20px #FFF;opacity:1}
+  100%{  box-shadow: none}
+
+
+}
+
+@keyframes xt1{
+  0%{ height:0}
+  100%{ height:100%}
+
+}
+
+@keyframes xt3{
+  0%{ width:0}
+  100%{ width:100%}
+
+}
+
+
+
+
+@keyframes yq1{
+  0%{   box-shadow: none}
+  50%{  box-shadow:0 0px 20px #FFF;}
+  100%{ box-shadow: none}
+
+}
+
+@keyframes yq2{
+  0%{  top:30%; margin-top:0px;  box-shadow: none}
+  50%{  box-shadow:0 0px 20px #FFF;}
+  100%{ box-shadow: none; top:65%; margin-top:-50px;}
+
+}
+
+
+@keyframes xz1{
+  0%{ transform:rotate(0deg); opacity:0}
+  50%{ transform:rotate(0deg); opacity:1}
+  100%{ transform:rotate(-25deg); opacity:1}
+
+}
+
+
+
+
+
+
+	
+	/********响应式*******/
+
+@media screen and (max-width:1000px){
+	
+	header ul,li { display:none}
+	#anniu { display:block}
+	#caidan { display:block ;transition:all 1s; }	
+	.hy {  left:53%;}
+	.qm  { top:50%;}
+	.yinyu { font-size:20px;}
+    .hanzi { margin-top:15px;}
+}
+
+
+	
+	
